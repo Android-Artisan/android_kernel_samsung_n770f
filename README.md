@@ -1,16 +1,32 @@
-# About
+# ArtisanKernel v0.0.9-rc1 for Exynos 990 devices
 
-This repository contains a community-supported kernel for the Galaxy Note 10 Lite, compatible with KernelSU-Next.
+Based off bavalucket's [android_kernel_samsung_n770f](https://github.com/bavalucket/android_kernel_samsung_n770f)
+
+## About Kernel
+- Linux 4.9.191
+- Name "Roaring Lionus"
+- Display Version "4.9.191-ArtisanKRNL-v0.0.9-rc1+"
 
 
+## Features
+- OneUI 7.x support
+- KernelSU Next support
+- Fully open source with a clean commit history
+
+## Issues
+- You tell me!
+
+## Supported devices:
+
+- N770F - Note10 Lite - r7n
 
 # Installation steps:
 
 Back up all previous modules (they will be permanently deleted once you install KernelSU-Next)
 
-Download the latest [boot.img](https://github.com/bavalucket/android_kernel_samsung_n770f/releases/)
+Download the latest [zip](https://github.com/Android-Artisan/android_kernel_samsung_n770f/releases/)
 
-Flash it through TWRP/Odin/heimdall/...
+Flash it through TWRP.
 
 recommended: clear cache and dalvik art
 
@@ -32,7 +48,7 @@ Enjoy!
 Clone the repo using the "--recurse-submodules" flag
 
 ```
-git clone --recurse-submodules https://github.com/bavalucket/android_kernel_samsung_n770f.git
+git clone --recurse-submodules https://github.com/Android-Artisan/android_kernel_samsung_n770f.git
 ```
 
 and then CD into the directory & run the automated 'build_kernel.sh'
